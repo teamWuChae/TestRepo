@@ -1,0 +1,9 @@
+public class Main {
+  
+  public static void main (String args[]) throws Exception {
+  
+      System.out.println("자바파일 깃허브로 pull push 해보기");
+
+  }
+  
+}
