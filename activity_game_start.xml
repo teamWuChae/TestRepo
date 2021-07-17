@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameStartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/atomic_age"
+            android:text="Select Song!"
+            android:textColor="@color/purple_700"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/spankers" />
+
+        <Button
+            android:id="@+id/SotbBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sex on the beach - SPANKERS"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/cheatcodes" />
+
+        <Button
+            android:id="@+id/CSexBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sex - Cheat Codes x Kris Kross Amsterdam"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/eden" />
+
+        <Button
+            android:id="@+id/ESexBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sex - EDEN"
+            android:layout_margin="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
